@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-white bg-opacity-90 backdrop-blur-sm shadow-sm z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <div className="font-bold text-navy text-xl">Aditya Kumar</div>
+          <div className="font-bold text-navy text-xl">Nagidi Revanth</div>
           <div className="hidden md:flex space-x-6">
             {['about', 'interests', 'experience', 'skills', 'tools', 'projects', 'contact'].map((item) => (
               <button

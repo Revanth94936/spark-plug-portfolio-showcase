@@ -14,7 +14,7 @@ const ToolCard = ({ name, icon, iconComponent: Icon }: ToolCardProps) => {
       <div className="text-navy mb-2 text-3xl">
         {Icon ? <Icon className="h-6 w-6" /> : icon}
       </div>
-      <h3 className="text-gray-700 font-medium text-sm">{name}</h3>
+      <h3 className="text-gray-700 font-medium text-sm text-center">{name}</h3>
     </div>
   );
 };

@@ -40,14 +40,14 @@ const Index = () => {
       description: 'Developed a 3D scanner that can scan objects placed in its line of sight, creating detailed three-dimensional models for analysis and reproduction.',
       image: 'https://images.unsplash.com/photo-1576086135878-ed0f518e44df?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8M2QlMjBzY2FubmVyfGVufDB8fDB8fHww',
       tags: ['Arduino', 'Sensors', 'Embedded Systems', 'Python'],
-      link: '#'
+      link: 'https://github.com/REVANTH9493/3-Dimension-Portable-Scanner'
     },
     {
       title: 'Fire Fighting Robot',
       description: 'Designed and built a robot capable of detecting and extinguishing fires automatically, using sensors to locate heat sources and navigate to them.',
       image: 'https://images.unsplash.com/photo-1563804447879-a2e08bd52244?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9ib3R8ZW58MHx8MHx8fDA%3D',
       tags: ['Robotics', 'Sensors', 'Programming', 'Electronics'],
-      link: '#'
+      link: 'https://github.com/REVANTH9493/Fire_Fighting_robot-project'
     },
     {
       title: 'Simple Radar System',
@@ -62,6 +62,13 @@ const Index = () => {
       image: 'https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpcHxlbnwwfHwwfHx8MA%3D%3D',
       tags: ['VLSI', 'Verilog', 'Processor Design'],
       link: '#'
+    },
+    {
+      title: 'Python Email Validator',
+      description: 'Developed an email validation tool in Python that verifies email addresses for correct format and domain validity, improving data quality for applications.',
+      image: 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVtYWlsfGVufDB8fDB8fHww',
+      tags: ['Python', 'Validation', 'Email Processing'],
+      link: 'https://github.com/REVANTH9493/Email_validator'
     }
   ];
 
@@ -184,7 +191,7 @@ const Index = () => {
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <div className="bg-teal/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 002-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 012-2H5a2 2 0 012 2v6a2 2 0 012 2h2a2 2 0 012-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
             <h3 className="text-lg font-medium text-navy mb-2">Python Programming</h3>
@@ -336,13 +343,13 @@ const Index = () => {
             <div className="mt-8">
               <h4 className="text-navy font-medium mb-3">Social Media</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-white hover:bg-teal transition-colors">
+                <a href="https://www.instagram.com/revanthnagidi?igsh=ZWNxMjhwZGY3d3Qw" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-white hover:bg-teal transition-colors">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-white hover:bg-teal transition-colors">
+                <a href="https://www.linkedin.com/in/revanth-n-746086275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-white hover:bg-teal transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-white hover:bg-teal transition-colors">
+                <a href="https://github.com/REVANTH9493" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-white hover:bg-teal transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
                 <a href="https://wa.me/9493670109" className="w-10 h-10 rounded-full bg-navy flex items-center justify-center text-white hover:bg-teal transition-colors">
