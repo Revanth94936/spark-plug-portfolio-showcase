@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Section from '@/components/Section';
@@ -84,7 +85,7 @@ const Index = () => {
           <div className="flex flex-col-reverse md:flex-row items-center">
             <div className="md:w-2/3 mt-8 md:mt-0 md:pr-12 animate-fade-in">
               <h4 className="text-teal font-medium mb-2">Hello, I'm</h4>
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">Aditya Kumar</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">Nagidi Revanth</h1>
               <h2 className="text-xl md:text-2xl font-medium mb-6">Electronics & Communication Engineering Student</h2>
               <p className="text-white/80 mb-8 max-w-lg">
                 Passionate about embedded systems, signal processing, and IoT solutions. 
@@ -103,7 +104,7 @@ const Index = () => {
               <div className="w-56 h-56 md:w-64 md:h-64 mx-auto overflow-hidden rounded-full border-4 border-teal shadow-lg">
                 <img 
                   src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbiUyMHBvcnRyYWl0fGVufDB8fDB8fHww" 
-                  alt="Aditya Kumar" 
+                  alt="Nagidi Revanth" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -117,7 +118,7 @@ const Index = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="animate-fade-in">
             <p className="text-gray-600 mb-4">
-              Hello! I'm Aditya, a final year Electronics and Communication Engineering student at National Institute of Technology. I'm passionate about designing and building electronic systems, with a particular interest in embedded systems, signal processing, and IoT solutions.
+              Hello! I'm Revanth, a final year Electronics and Communication Engineering student at National Institute of Technology. I'm passionate about designing and building electronic systems, with a particular interest in embedded systems, signal processing, and IoT solutions.
             </p>
             <p className="text-gray-600 mb-4">
               My journey in electronics began when I disassembled my first radio at the age of 12. Since then, I've been fascinated by how electronic devices work and how they can be improved or reimagined.
@@ -295,7 +296,7 @@ const Index = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
-                  <p className="text-navy font-medium">aditya.kumar@example.com</p>
+                  <p className="text-navy font-medium">revanth.nagidi@example.com</p>
                 </div>
               </div>
               
@@ -360,7 +361,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-navy text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="mb-2">© 2025 Aditya Kumar. All Rights Reserved.</p>
+          <p className="mb-2">© 2025 Nagidi Revanth. All Rights Reserved.</p>
           <p className="text-white/60 text-sm">Electronics & Communication Engineering Student</p>
         </div>
       </footer>
