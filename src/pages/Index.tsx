@@ -17,6 +17,7 @@ const handleClick = () => {
 const Index = () => {
   // Skills data
   const technicalSkills = [
+
     { name: 'VLSI', percentage: 90 },
     { name: 'Digital Electronics', percentage: 85 },
     { name: 'Circuit Design', percentage: 80 },
@@ -24,6 +25,7 @@ const Index = () => {
   ];
 
   const programmingSkills = [
+
     { name: 'Verilog', percentage: 85 },
     { name: 'C', percentage: 80 },
     { name: 'Python', percentage: 90 },
@@ -43,23 +45,23 @@ const Index = () => {
     {
       title: '3 Dimension Scanner',
       description: 'Developed a 3D scanner that can scan objects placed in its line of sight, creating detailed three-dimensional models for analysis and reproduction.',
-      image: 'https://m.media-amazon.com/images/I/61F02b0I6QL._SX522_.jpg',
+      image: 'https://plus.unsplash.com/premium_photo-1715228482158-c911a17beca7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       tags: ['Arduino', 'Sensors', 'Embedded Systems', 'Python'],
       link: 'https://github.com/REVANTH9493/3-Dimension-Portable-Scanner'
     },
     {
       title: 'Fire Fighting Robot',
       description: 'Designed and built a robot capable of detecting and extinguishing fires automatically, using sensors to locate heat sources and navigate to them.',
-      image: 'https://m.media-amazon.com/images/I/61nH4LcKGmL._SX522_.jpg',
+      image: 'https://images.unsplash.com/photo-1590912710660-aa43935cd36a?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       tags: ['Robotics', 'Sensors', 'Programming', 'Electronics'],
       link: 'https://github.com/REVANTH9493/Fire_Fighting_robot-project'
     },
     {
       title: 'Simple Radar System',
       description: 'Created a basic radar system that can detect objects in its vicinity and display their position on a screen, using ultrasonic sensors and microcontrollers.',
-      image: 'https://i.ytimg.com/vi/RSAj_ydbg48/maxresdefault.jpg',
+      image: 'https://plus.unsplash.com/premium_photo-1679917152484-c7b68dd0962a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       tags: ['Arduino', 'Sensors', 'C Programming'],
-      link: '#'
+      link: 'https://github.com/REVANTH9493/Radar_project/tree/main'
     },
     {
       title: 'RISC-5 Based Processor Pipelining',
@@ -71,7 +73,7 @@ const Index = () => {
     {
       title: 'Python Email Validator',
       description: 'Developed an email validation tool in Python that verifies email addresses for correct format and domain validity, improving data quality for applications.',
-      image: 'https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVtYWlsfGVufDB8fDB8fHww',
+      image: 'https://images.unsplash.com/photo-1683117927786-f146451082fb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       tags: ['Python', 'Validation', 'Email Processing'],
       link: 'https://github.com/REVANTH9493/Email_validator'
     }
@@ -126,7 +128,7 @@ const Index = () => {
             <div className="md:w-1/3 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="w-56 h-56 md:w-64 md:h-64 mx-auto overflow-hidden rounded-full border-4 border-teal shadow-lg">
                 <img 
-                  src="/lovable-uploads/cd05bd0e-243f-421f-bfaf-3b6fa71bb24e.png" 
+                  src="public/revanth.jpg" 
                   alt="Nagidi Revanth" 
                   className="w-full h-full object-cover"
                 />
