@@ -10,6 +10,10 @@ import SkillPill from '@/components/SkillPill';
 import TimelineItem from '@/components/TimelineItem';
 import { Instagram, Linkedin, Github, Mail, MessageSquare } from 'lucide-react';
 
+const handleClick = () => {
+  window.location.href = "#projects"; // This will scroll the page to the section with id="projects"
+};
+
 const Index = () => {
   // Skills data
   const technicalSkills = [
@@ -31,22 +35,22 @@ const Index = () => {
   const otherSkills = [
     'Communication', 'Problem Solving', 'Team Leadership', 
     'Project Management', 'Technical Documentation', 'Research',
-    'Innovation', 'Critical Thinking', 'Time Management'
+    'Data Analysis', 'Time Management'
   ];
 
   // Projects data
   const projects = [
     {
-      title: '3D Scanner',
+      title: '3 Dimension Scanner',
       description: 'Developed a 3D scanner that can scan objects placed in its line of sight, creating detailed three-dimensional models for analysis and reproduction.',
-      image: 'https://images.unsplash.com/photo-1576086135878-ed0f518e44df?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8M2QlMjBzY2FubmVyfGVufDB8fDB8fHww',
+      image: 'https://m.media-amazon.com/images/I/61F02b0I6QL._SX522_.jpg',
       tags: ['Arduino', 'Sensors', 'Embedded Systems', 'Python'],
       link: 'https://github.com/REVANTH9493/3-Dimension-Portable-Scanner'
     },
     {
       title: 'Fire Fighting Robot',
       description: 'Designed and built a robot capable of detecting and extinguishing fires automatically, using sensors to locate heat sources and navigate to them.',
-      image: 'https://images.unsplash.com/photo-1563804447879-a2e08bd52244?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9ib3R8ZW58MHx8MHx8fDA%3D',
+      image: 'https://m.media-amazon.com/images/I/61nH4LcKGmL._SX522_.jpg',
       tags: ['Robotics', 'Sensors', 'Programming', 'Electronics'],
       link: 'https://github.com/REVANTH9493/Fire_Fighting_robot-project'
     },
@@ -60,7 +64,7 @@ const Index = () => {
     {
       title: 'RISC-5 Based Processor Pipelining',
       description: 'Implemented a RISC-5 processor with pipelining using Verilog, demonstrating understanding of computer architecture and hardware description languages.',
-      image: 'https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpcHxlbnwwfHwwfHx8MA%3D%3D',
+      image: 'https://vajiram-prod.s3.ap-south-1.amazonaws.com/RISC_V_technology_a1263c7245.png',
       tags: ['VLSI', 'Verilog', 'Processor Design'],
       link: '#'
     },
@@ -77,7 +81,7 @@ const Index = () => {
   const experiences = [
     {
       period: 'December 2022 - May 2023',
-      title: 'Embedded Systems Trainee',
+      title: 'Embedded Systems Intern',
       company: 'Industech Solutions Pvt. Ltd., Koti',
       description: 'Gained hands-on experience with Arduino programming and Python. Obtained proficiency with tools like uKeil and Multisim for embedded systems development and simulation.'
     },
@@ -114,7 +118,7 @@ const Index = () => {
                 <button className="bg-teal hover:bg-teal/90 text-white px-6 py-2 rounded-full font-medium transition-colors">
                   Download CV
                 </button>
-                <button className="border border-white/30 hover:border-white text-white px-6 py-2 rounded-full font-medium transition-colors hover:bg-white/10">
+                <button className="border border-white/30 hover:border-white text-white px-6 py-2 rounded-full font-medium transition-colors hover:bg-white/10" onClick={handleClick}>
                   View Projects
                 </button>
               </div>
@@ -122,7 +126,7 @@ const Index = () => {
             <div className="md:w-1/3 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="w-56 h-56 md:w-64 md:h-64 mx-auto overflow-hidden rounded-full border-4 border-teal shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBlcnNvbiUyMHBvcnRyYWl0fGVufDB8fDB8fHww" 
+                  src="public/revanth.jpg" 
                   alt="Nagidi Revanth" 
                   className="w-full h-full object-cover"
                 />
@@ -262,7 +266,7 @@ const Index = () => {
       <Section id="tools" title="Tools & Technologies">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {[
-            { name: 'Cadence Virtuoso', icon: '🔌' },
+            { name: 'Cadence Virtuoso', icon: '🛠️' },
             { name: 'Xilinx Vivado', icon: '💻' },
             { name: 'MATLAB', icon: '📊' },
             { name: 'Proteus', icon: '📈' },
