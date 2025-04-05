@@ -57,7 +57,7 @@ const Index = () => {
     {
       title: 'Simple Radar System',
       description: 'Created a basic radar system that can detect objects in its vicinity and display their position on a screen, using ultrasonic sensors and microcontrollers.',
-      image: 'https://images.unsplash.com/photo-1517544845501-990eeb9b5db5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFkYXJ8ZW58MHx8MHx8fDA%3D',
+      image: 'https://i.ytimg.com/vi/RSAj_ydbg48/maxresdefault.jpg',
       tags: ['Arduino', 'Sensors', 'C Programming'],
       link: '#'
     },
