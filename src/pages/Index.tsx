@@ -126,7 +126,7 @@ const Index = () => {
             <div className="md:w-1/3 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="w-56 h-56 md:w-64 md:h-64 mx-auto overflow-hidden rounded-full border-4 border-teal shadow-lg">
                 <img 
-                  src="public/revanth.jpg" 
+                  src="/lovable-uploads/cd05bd0e-243f-421f-bfaf-3b6fa71bb24e.png" 
                   alt="Nagidi Revanth" 
                   className="w-full h-full object-cover"
                 />

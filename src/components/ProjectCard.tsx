@@ -15,11 +15,11 @@ interface ProjectCardProps {
 const ProjectCard = ({ title, description, image, tags, link }: ProjectCardProps) => {
   return (
     <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg">
-      <div className="h-48 overflow-hidden">
+      <div className="image-container">
         <img 
           src={image} 
           alt={title} 
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+          className="transition-transform duration-500 hover:scale-105"
         />
       </div>
       <CardHeader>
